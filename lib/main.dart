@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-String getFullName(String fName, String lName) {
-  return '$fName $lName';
-}
+String getFullName(String fName, String lName) => '$fName $lName';
 
 void main() {
   runApp(const MyApp());
